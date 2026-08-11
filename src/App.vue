@@ -5,6 +5,7 @@
     <router-link to="/">Inicio</router-link>
     <router-link to="/escuela">Escuela</router-link>
     <router-link to="/about">Acerca de</router-link>
+    <router-link to="/formulario">Formulario</router-link>
   </nav>
 
   <main class="app-shell">
