@@ -1,0 +1,58 @@
+.page-about {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.hero-about {
+  background: linear-gradient(135deg, rgba(31, 36, 48, 0.96), rgba(92, 77, 125, 0.94));
+  color: white;
+  padding: 2.2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+.eyebrow-about {
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.78rem;
+  opacity: 0.8;
+  margin-bottom: 0.6rem;
+}
+
+.hero-about h1 {
+  margin: 0.3rem 0 0.7rem;
+  font-size: clamp(1.8rem, 2.5vw, 2.3rem);
+}
+
+.hero-about p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.84);
+  line-height: 1.65;
+  max-width: 720px;
+}
+
+.cards-about {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card-about {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.2rem;
+  box-shadow: var(--shadow);
+}
+
+.card-about h2 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  color: var(--accent);
+}
+
+.card-about p {
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0;
+}

@@ -1,0 +1,90 @@
+.page-home {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.hero-home {
+  background: linear-gradient(135deg, rgba(31, 36, 48, 0.96), rgba(92, 77, 125, 0.94));
+  color: white;
+  padding: 2.2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-home::after {
+  content: '';
+  position: absolute;
+  inset: auto -20px -30px auto;
+  width: 180px;
+  height: 180px;
+  background: radial-gradient(circle, rgba(255,255,255,0.14), transparent 70%);
+}
+
+.eyebrow-home {
+  text-transform: uppercase;
+  letter-spacing: 0.28em;
+  font-size: 0.78rem;
+  opacity: 0.8;
+  margin-bottom: 0.6rem;
+}
+
+.hero-home h1 {
+  margin: 0.3rem 0 0.7rem;
+  font-size: clamp(1.8rem, 2.6vw, 2.4rem);
+}
+
+.hero-home p {
+  margin: 0;
+  color: rgba(255, 255, 255, 0.86);
+  max-width: 720px;
+  line-height: 1.6;
+}
+
+.hero-actions-home {
+  margin-top: 1.2rem;
+}
+
+.btn-home {
+  display: inline-block;
+  background: linear-gradient(135deg, #f0df9a, #d9c36d);
+  color: #2b2338;
+  padding: 0.75rem 1.1rem;
+  border-radius: 999px;
+  font-weight: 700;
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
+}
+
+.cards-home {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card-home {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.2rem;
+  box-shadow: var(--shadow);
+}
+
+.card-home h2 {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+  color: var(--accent);
+}
+
+.card-home p {
+  color: var(--muted);
+  line-height: 1.6;
+  margin: 0;
+}
+
+.link-home {
+  display: inline-block;
+  margin-top: 0.8rem;
+  color: var(--accent);
+  font-weight: 700;
+}

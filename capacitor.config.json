@@ -1,0 +1,6 @@
+{
+  "appId": "com.maite.hogwarts",
+  "appName": "hogwarts",
+  "webDir": "dist",
+  "bundleWebRuntime": false
+}
