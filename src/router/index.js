@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Escuela from '../views/Escuela.vue'
-import Formulario from '../views/Formulario.vue'
+import Formulario from '../views/FormularioCasas.vue'
 
 const routes = [
   { path: '/', component: Home },
